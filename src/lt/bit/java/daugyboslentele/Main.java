@@ -1,6 +1,5 @@
 package lt.bit.java.daugyboslentele;
 
-import java.awt.*;
 
 public class Main {
 
@@ -42,7 +41,9 @@ public class Main {
         for (int i = 0; i < 3; i++) {
             for (int row = 1; row <=10; row++) {
                 for (int col = i * 3 + 1; col <= i * 3 + 1 + 2; col++) {
-                    System.out.print(col + " x " + row + " = " + col * row + "\t");
+                    System.out.print(col + " x " +
+                            (row < 10 ? " " : "") + row + " = " +
+                            (col * row <  10 ? " " : "") + col * row + "    ");
                 }
                 System.out.println();
             }
