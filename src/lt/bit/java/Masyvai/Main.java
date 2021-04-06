@@ -1,6 +1,5 @@
-package Masyvai;
+package lt.bit.java.Masyvai;
 
-import java.lang.reflect.Array;
 import java.util.Arrays;
 
 public class Main {

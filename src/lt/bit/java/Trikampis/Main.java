@@ -1,4 +1,4 @@
-package Trikampis;
+package lt.bit.java.Trikampis;
 
 import java.util.Scanner;
 
@@ -24,7 +24,7 @@ public class Main {
             System.out.println("Toks trikampis neegzistuoja");
 
         if (x + y > z && x + z > y && y + z > x)
-            System.out.println("Trikampis");
+            System.out.println("lt/bit/java/Trikampis");
         if (x == y && y == z)
             System.out.println("Lygiakraštis trikampis");
         else if (x == y || y == z || z == x)

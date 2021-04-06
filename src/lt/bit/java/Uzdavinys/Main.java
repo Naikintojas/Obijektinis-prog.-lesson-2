@@ -1,4 +1,4 @@
-package lt.bit.java.intro.Uzdavinys;
+package lt.bit.java.Uzdavinys;
 
 public class Main {
 
